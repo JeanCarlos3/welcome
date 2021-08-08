@@ -1,0 +1,59 @@
+<header>
+    <nav>
+        <!--  mobile-Banner -->
+        <div class="mobile-Banner">
+            <div class="col logo_Small">
+                <img src="../../../assets/imagen/logo/small_Logo.png" class="img-fluid" alt="img">
+            </div>
+            <div class="config">
+                <div class="item bb">
+                    <fa-icon class="item-bars" [icon]="faBars"></fa-icon>
+                    <a (click)="onClickMe()">
+                        <fa-icon [icon]=" faUserCircle "></fa-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--  desktop-Banner -->
+        <div class="desktop">
+            <div class="desktop-box">
+                <div class="col-6 ">
+                    <img class="logo" src="../../../assets/imagen/logo/logo.png" alt="">
+                </div>
+                <div class="col-6 header-desktop">
+                    <ul class="header-desktop-list">
+                        <li class="header-desktop-item">
+                            <div class="item">
+                                <a class="btn-desktop-socio" href="">Hazte socio</a>
+                            </div>
+                        </li>
+                        <li class="header-desktop-item">
+                            <div class="item">
+                                <a href="">
+                                    <fa-icon [icon]="faGlobe"></fa-icon>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="header-desktop-item">
+                            <div class="item bb">
+                                <fa-icon class="item-bars" [icon]="faBars"></fa-icon>
+                                <a (click)="onClickMe()">
+                                    <fa-icon [icon]=" faUserCircle "></fa-icon>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--  mostrar opciones -->
+        <div [hidden]="mostrar" class="card">
+            <div class="config">
+                <p> <a href=" ">Registrate</a></p>
+                <p> <a routerLink="/auth/login" routerLinkActive="active">Iniciar sección</a></p>
+                <p> <a href=" ">Centro de ayuda</a></p>
+                <p> <a href=" ">Ayuda</a></p>
+            </div>
+        </div>
+    </nav>
+</header>

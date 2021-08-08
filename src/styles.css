@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root {
+    --color_White: #fff;
+    --color_black: #080808;
+    --color_gris: #727474;
+    --color_gray: #727474;
+    --color_crisom: crimson;
+    --color_textinput: #424141;
+    --color_link: #393939;
+    --color_star: #eeea14;
+    --color_borderBotton: #D8D4D8;
+    --color_Icon: #807f7f;
+    --color_Border: #D7D7DA;
+    --bg_boxShadow: rgba(0, 0, 0, 0.075);
+    --bg_boton: crimson;
+    --bg_Footer: #F7F7F9;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: scroll;
+}
+
+.pie {
+    background-color: #E9E9EC;
+    text-align: center;
+}
+
+.pie p {
+    margin-bottom: 0;
+}
+
+.pie-text {
+    font-weight: 200 !important;
+}
+
+@media (max-width: 767px) {
+    .mmm {
+        display: none;
+    }
+}

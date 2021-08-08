@@ -1,0 +1,122 @@
+<!--START offcanvas ordenar-->
+<div class="offcanvas offcanvas-bottom vv" tabindex="-1" id="offcanvasOrder" aria-labelledby="offcanvasOrderLabel">
+    <div class="offcanvas-header">
+        <h5 class="canvas-title">Ordenar por</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="">
+        <div class="offcanvas-item">
+            <p>Precio de Menor a Mayor</p>
+            <p>Precio de Mayor a Menor</p>
+            <p>Cantidad de huespedes por habitación</p>
+        </div>
+    </div>
+</div>
+<!--END offcanvas ordenar-->
+
+<!--START offcanvas Fitrar-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
+    <div class="offcanvas-header">
+        <h5 class="canvas-title">Filtro por</h5>
+        <h6 class="link-danger">Borrar todo</h6>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    </div>
+    <div class="body">
+        <!--Pagar en hotel-->
+        <div class="">
+            <div class="row">
+                <div class="col left">
+                    <label class="form-check-label" for="flexCheckChecked">
+                    Checked checkbox
+                  </label>
+                </div>
+                <div class="col rigth">
+                    <input class="" type="checkbox" value="" id="flexCheckChecked">
+                </div>
+
+            </div>
+        </div>
+        <!--Precio-->
+        <div class="price">
+            <label for="customRange1" class="form-label">Precio</label>
+            <div>
+                <button class="btn">10</button>
+                <button class="btn float-end">{{r}}</button>
+                <input type="range" class="form-range" id="customRange1" [value]="20" min="10" max="100" (input)="zoomCambio(zoomInput.value)" #zoomInput>
+            </div>
+        </div>
+        <!--Tipo de alojamiento-->
+        <div class="">
+            <div class="row">
+                <div class="col-8 left">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                      </label>
+                </div>
+                <div class="col rigth">
+                    <input class="" type="checkbox" value="" id="flexCheckChecked">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-8 left">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                      </label>
+                </div>
+                <div class="col rigth">
+                    <input class="" type="checkbox" value="" id="flexCheckChecked">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-8 left">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Checked checkbox
+                      </label>
+                </div>
+                <div class="col rigth">
+                    <input class="" type="checkbox" value="" id="flexCheckChecked">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Boton aplicar-->
+    <div class="col-12 btn-aplicar">
+        <input type="button" class="btn aa" value="Aplicar">
+
+    </div>
+</div>
+<!--END offcanvas Fitrar-->
+
+<div class="filter-mobile" id="filter-mobile">
+    <div class="row">
+        <div class="col">
+            <div class="item">
+                <a class="item-text">
+                    <p class="">
+                        <fa-icon class="icon" [icon]="faMap"></fa-icon> Mapa</p>
+                </a>
+            </div>
+        </div>
+        <div class="col fil">
+            <div class="item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOrder" aria-controls="offcanvasOrder">
+                <a class="item-text">
+                    <p class="">
+                        <fa-icon class="icon" [icon]="faSortAmountDown"></fa-icon> Ordenar</p>
+                </a>
+            </div>
+        </div>
+        <div class="col fil">
+            <div class="item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFilter" aria-controls="offcanvasFilter">
+                <a class="item-text">
+                    <p class="">
+                        <fa-icon class="icon" [icon]="faFilter"></fa-icon> Filtrar</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>

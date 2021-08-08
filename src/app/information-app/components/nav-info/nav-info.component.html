@@ -1,0 +1,30 @@
+<nav>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn"><i class="flaticon-men-3"></i></label>
+    <label class="logo">HOPE</label>
+
+    <ul>
+        <!-- Actual search box -->
+        <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="input-seach form-control" placeholder="Search">
+        </div>
+
+        <li><a routerLink="/rooms/home">HOME</a></li>
+        <li><a routerLink="/info/about">Sobre nosotros</a></li>
+        <li><a routerLink="/info/socios">Hazte socio</a></li>
+        <li><a routerLink="/info/help">Centro de ayuda</a></li>
+        <li><a routerLink="/info/socios">Confianza y seguridad</a></li>
+        <li><a href="#">Opciones de cancelacion</a></li>
+        <li><a href="#">Terminos de hospedaje</a></li>
+        <li><a href="#">Idioma</a></li>
+
+        <div>
+            <li><button routerLink="/auth/login" class="btn btn-dark bb">Iniciar Sección</button></li>
+            <li>¿No tienes cuenta?
+                <a routerLink="/auth/register"><small class="text-danger"> Crear cuenta</small></a>
+            </li>
+        </div>
+    </ul>
+</nav>

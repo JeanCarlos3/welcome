@@ -1,0 +1,62 @@
+.socio {
+    margin: 2rem;
+}
+
+.section {
+    text-align: justify;
+    margin-bottom: 2.8rem;
+}
+
+h1,
+h4,
+h5 {
+    font-weight: bold;
+}
+
+h4 {
+    margin-bottom: 1.8rem;
+}
+
+h5 {
+    margin-bottom: 1.4rem;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+a {
+    font-style: italic;
+    text-transform: none;
+    text-decoration: underline;
+    color: var(--color_link);
+}
+
+.page-title {
+    margin-bottom: 1.8rem;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .socio {
+        padding: 2rem 3rem;
+        border: 1px solid var(--color_Border);
+        box-shadow: 0 0.125rem 0.25rem var(--color_Border) !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .socio {
+        padding: 2rem 6rem;
+        margin: 2rem 10rem;
+        border: 1px solid var(--color_Border);
+        box-shadow: 0 0.125rem 0.25rem var(--color_Border) !important;
+    }
+}
+
+
+/*
+.col-sm-6,
+.col-md-6 {
+    padding: 0;
+}*/

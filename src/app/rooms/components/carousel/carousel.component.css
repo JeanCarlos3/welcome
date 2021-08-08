@@ -1,0 +1,146 @@
+/*
+CSS GENERAL
+*/
+
+.room-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.caracteristica-habitacion {
+    position: absolute;
+    list-style-type: none;
+    color: var( --color_star);
+    top: 30%;
+    right: 5%;
+    text-align: end;
+    transform: translate(-5%, -50%);
+}
+
+.description-text {
+    margin: 0;
+    font-weight: bold;
+}
+
+.description-p {
+    font-size: 0.987rem;
+    padding-top: 0.2rem;
+}
+
+
+/*
+END CSS GENERAL
+*/
+
+@media (max-width: 767px) {
+    .recomendar {
+        padding: 0 1rem;
+    }
+    .slider {
+        padding: 0rem 0rem 0rem 1rem;
+        margin-bottom: 2rem;
+    }
+    h1 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    .room {
+        margin-bottom: 1rem;
+    }
+    .room h1 {
+        margin-bottom: 1.5rem;
+    }
+    .description-box {
+        padding-left: 0.5rem;
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+    .description-box p {
+        margin: 0.5rem 0 0 0.2rem;
+    }
+    .title-room {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .desc-room {
+        margin-top: 0.2rem !important;
+    }
+    .promo {
+        margin: 1rem;
+        padding: 0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .promo-label,
+    .bbbb {
+        position: relative;
+        text-align: center;
+        padding: 0 1rem;
+        color: var( --color_White);
+        background-color: var( --color_black);
+    }
+    .promo-label h1,
+    .bbbb h1 {
+        padding-top: 1rem;
+    }
+    .promo .btn {
+        margin-bottom: 1rem;
+    }
+    .service-item {
+        padding: 0.5rem;
+        margin: 0.8rem;
+    }
+    .service-item-icon {
+        width: 5rem;
+        padding-right: 1rem;
+    }
+    /******************************/
+    .banner {
+        position: relative;
+        overflow: hidden;
+        margin: 2rem 1rem;
+        border-radius: 10px;
+    }
+    .banner-img-box {
+        left: 50%;
+        top: 0;
+        margin-left: -300px;
+    }
+    .banner-img {
+        max-height: 420px;
+        display: block;
+        margin: 0 auto;
+        z-index: 3333;
+    }
+    .banner-text {
+        position: absolute;
+        width: 50%;
+        top: 25%;
+        left: 35%;
+        font-weight: bold;
+        text-align: left;
+        transform: translate(-50%, -50%);
+        color: rgba(24, 34, 34)
+    }
+    .banner-text h3 {
+        margin-bottom: 2rem;
+    }
+    .banner-btn {
+        background-color: var( --color_black) !important;
+        color: var( --color_White) !important;
+        border-radius: 5px;
+    }
+    /*****************************************/
+}
+
+
+/**tablet small*/
+
+@media (min-width: 768px) {}
+
+@media (min-width: 769px) and (max-width: 1200px) {}
+
+
+/*screem longer*/
+
+@media (min-width: 1200px) {}

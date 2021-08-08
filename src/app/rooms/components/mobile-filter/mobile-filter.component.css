@@ -1,0 +1,113 @@
+.filter-mobile {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0.2rem;
+    padding: 0;
+    bottom: 0;
+    background-color: var(--color_black);
+    opacity: 90%;
+    z-index: 999999;
+}
+
+.row {
+    margin: 0;
+}
+
+.col {
+    padding: 0;
+}
+
+.item {
+    text-align: center;
+    padding: 0.3rem 0;
+}
+
+.item-text {
+    text-decoration: none;
+    color: var(--color_White);
+}
+
+.fil {
+    border-left: 1px solid var(--color_White);
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.vv {
+    border: none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    opacity: 100% !important;
+}
+
+.canvas-title {
+    font-weight: bold;
+}
+
+.top-header {
+    position: relative;
+    margin-bottom: 2rem 1rem !important;
+}
+
+.offcanvas-start {
+    width: 100% !important;
+    border: none;
+}
+
+.offcanvas-item p {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.filter-mobile {
+    z-index: 2;
+}
+
+.left {
+    padding-left: 2rem;
+}
+
+.rigth {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.price {
+    margin: 2rem;
+}
+
+.btn {
+    color: #fff;
+    background-color: black;
+}
+
+.btn-aplicar {
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+.aa {
+    width: 90%;
+    margin: 0 1rem;
+}
+
+
+/*********************/
+
+@media (min-width: 400px) and (max-width: 768px) {
+    .item {
+        font-size: 1.178rem;
+        padding: 0.5rem 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .filter-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,415 @@
+<app-navbar class="mmm"></app-navbar>
+
+<app-search></app-search>
+
+<div class="home">
+    <section>
+        <!-- carousel-->
+        <div class="rooms-owl recomendar">
+            <h1>Habitaciones recomendadas</h1>
+            <owl-carousel-o [options]="customOptions">
+                <ng-template carouselSlide>
+                    <div>
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box">
+                            <ul class="caracteristica-habitacion">
+
+                                <li>
+                                    <p class="badge bg-warning text-wrap">
+                                        <fa-icon [icon]="faTv"></fa-icon>
+                                        <small> Tv </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-success text-wrap">
+                                        <fa-icon [icon]="faBed"></fa-icon>
+                                        <small> 2 </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-danger text-wrap">
+                                        <fa-icon [icon]="faBath"></fa-icon>
+                                        <small> Baño </small>
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="price-room badge bg-info text-wrap">
+                                        <small> $200 / noche</small>
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="title-room mt-1">Hotel buena vida</p>
+                            <p class="desc-room">San jose centro zzz</p>
+
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div>
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box">
+                            <ul class="caracteristica-habitacion">
+
+                                <li>
+                                    <p class="badge bg-warning text-wrap">
+                                        <fa-icon [icon]="faTv"></fa-icon>
+                                        <small> Tv </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-success text-wrap">
+                                        <fa-icon [icon]="faBed"></fa-icon>
+                                        <small> 2 </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-danger text-wrap">
+                                        <fa-icon [icon]="faBath"></fa-icon>
+                                        <small> Baño </small>
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="price-room badge bg-info text-wrap">
+                                        <small> $200 / noche</small>
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="title-room mt-2">Hotel buena vida</p>
+                            <p class="desc-room">San jose centro</p>
+
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div>
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box">
+                            <ul class="caracteristica-habitacion">
+
+                                <li>
+                                    <p class="badge bg-warning text-wrap">
+                                        <fa-icon [icon]="faTv"></fa-icon>
+                                        <small> Tv </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-success text-wrap">
+                                        <fa-icon [icon]="faBed"></fa-icon>
+                                        <small> 2 </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-danger text-wrap">
+                                        <fa-icon [icon]="faBath"></fa-icon>
+                                        <small> Baño </small>
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="price-room badge bg-info text-wrap">
+                                        <small> $200 / noche</small>
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="title-room mt-2">Hotel buena vida</p>
+                            <p class="desc-room">San jose centro</p>
+
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div>
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box">
+                            <ul class="caracteristica-habitacion">
+
+                                <li>
+                                    <p class="badge bg-warning text-wrap">
+                                        <fa-icon [icon]="faTv"></fa-icon>
+                                        <small> Tv </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-success text-wrap">
+                                        <fa-icon [icon]="faBed"></fa-icon>
+                                        <small> 2 </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-danger text-wrap">
+                                        <fa-icon [icon]="faBath"></fa-icon>
+                                        <small> Baño </small>
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="price-room badge bg-info text-wrap">
+                                        <small> $200 / noche</small>
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="title-room mt-2">Hotel buena vida</p>
+                            <p class="desc-room">San jose centro</p>
+
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div>
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box">
+                            <ul class="caracteristica-habitacion">
+
+                                <li>
+                                    <p class="badge bg-warning text-wrap">
+                                        <fa-icon [icon]="faTv"></fa-icon>
+                                        <small> Tv </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-success text-wrap">
+                                        <fa-icon [icon]="faBed"></fa-icon>
+                                        <small> 2 </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-danger text-wrap">
+                                        <fa-icon [icon]="faBath"></fa-icon>
+                                        <small> Baño </small>
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="price-room badge bg-info text-wrap">
+                                        <small> $200 / noche</small>
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="title-room mt-2">Hotel buena vida</p>
+                            <p class="desc-room">San jose centro</p>
+
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div>
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box">
+                            <ul class="caracteristica-habitacion">
+
+                                <li>
+                                    <p class="badge bg-warning text-wrap">
+                                        <fa-icon [icon]="faTv"></fa-icon>
+                                        <small> Tv </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-success text-wrap">
+                                        <fa-icon [icon]="faBed"></fa-icon>
+                                        <small> 2 </small>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="badge bg-danger text-wrap">
+                                        <fa-icon [icon]="faBath"></fa-icon>
+                                        <small> Baño </small>
+
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="price-room badge bg-info text-wrap">
+                                        <small> $200 / noche</small>
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="title-room mt-2">Hotel buena vida</p>
+                            <p class="desc-room">San jose centro</p>
+
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    </section>
+
+    <section>
+        <!-- banner-->
+        <div class="banner">
+            <div class="banner-img-box">
+                <img class="banner-img" src="../../../assets/imagen/habitaciones/paisaje.jpg" alt="img">
+            </div>
+            <div class="banner-text">
+                <h3>¿No tienes claro a que hotel ir?. ¡Te ayudamos!</h3>
+                <input type="button" class="banner-btn" value="Más información">
+            </div>
+        </div>
+        <!--end banner-->
+    </section>
+
+    <section>
+        <!-- Categoria
+        <div class="category">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-12  aaasa room">
+                    <div class="promo-img">
+                        <a class="room-category" href="">
+                            <div class="category-img">
+                                <img src="../../../assets/imagen/habitaciones/paisaje.jpg" class="img-fluid" alt="img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="bbbb">
+                        <h1>Encuentra donde quedarte</h1>
+                        <input type="button" class="btn color" value="Busqueda rapidad">
+                    </div>
+                </div>
+            </div>
+        </div>
+        carousel 1.5 size-->
+        <div class="rooms-owl slider">
+            <h1>Habitaciones recomendadas</h1>
+            <owl-carousel-o [options]="customOptions2">
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/1.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/1.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/3.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+
+            </owl-carousel-o>
+        </div>
+    </section>
+
+    <section>
+        <!-- carousel 1.5 size-->
+        <div class="rooms-owl slider">
+            <h1>Te ofrecemos más que hoteles...</h1>
+            <owl-carousel-o [options]="customOptions2">
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/4.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/5.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/4.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="">
+                        <div class="room-img">
+                            <img src="../../../assets/imagen/habitaciones/5.jpg" class="img-fluid" alt="img">
+                        </div>
+                        <div class="description-box mt-2">
+                            <h5 class="description-text">Hotel buena vida</h5>
+                            <p class="description-p">Habitaciones comodas y limpias</p>
+                        </div>
+                    </div>
+                </ng-template>
+
+            </owl-carousel-o>
+        </div>
+    </section>
+
+    <section>
+        <!-- Socios-->
+        <div class="promo">
+            <div class="promo-label">
+                <h1>Hazte Socio</h1>
+                <p>Convierta tu alojamiento en nuevas esperiencias para tus inquilinos</p>
+                <input type="button" class="btn" value="Más información">
+            </div>
+            <div class="promo-img">
+                <img src="../../../assets/imagen/banner/img-socios.jpg" class="img-fluid" alt="img">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- Banner-->
+        <div class="img-box">
+            <img src="../../../assets/imagen/banner/b.png" class="img-fluid" alt="img">
+        </div>
+    </section>
+</div>
+
+<!--<app-mobile-bar></app-mobile-bar>-->
+<app-mobile-bar></app-mobile-bar>
+
+<app-footer>
+</app-footer>

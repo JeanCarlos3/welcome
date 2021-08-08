@@ -1,0 +1,516 @@
+/*
+CSS GENERAL
+*/
+
+section {
+    margin-bottom: 4rem;
+}
+
+.home {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+}
+
+.room-category {
+    text-decoration: none;
+    color: var(--color_black);
+}
+
+.promo,
+.aaasa,
+.img-box {
+    position: relative;
+}
+
+.home,
+.room,
+.promo,
+.img-box {
+    margin-bottom: 1rem;
+}
+
+.service {
+    margin-bottom: 2rem;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #6fe4e4;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0 0.125rem 0.25rem var(--bg_boxShadow) !important;
+}
+
+.service-item:hover {
+    box-shadow: 0 0.5rem 1rem var(--bg_boxShadow) !important;
+}
+
+.category-label {
+    padding-top: 1rem;
+    line-height: 0.6rem;
+}
+
+.category small {
+    color: var(--color_gris);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.category-title {
+    font-size: 1.1789rem;
+    font-weight: bold;
+}
+
+.category-desc {
+    font-size: 1rem;
+}
+
+.room-img,
+.category-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.promo-label h1 {
+    font-size: 1.6rem;
+}
+
+.promo-label p {
+    font-size: 1rem;
+}
+
+input[type=button] {
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+    background-color: var( --color_White);
+    color: var( --color_black);
+    border: none;
+}
+
+.star {
+    position: absolute;
+    color: var( --color_star);
+    top: 15%;
+    right: 3%;
+    text-align: right;
+    transform: translate(-50%, -50%);
+}
+
+.caracteristica-habitacion {
+    position: absolute;
+    list-style-type: none;
+    color: var( --color_star);
+    top: 30%;
+    right: 5%;
+    text-align: end;
+    transform: translate(-5%, -50%);
+}
+
+.description-text {
+    margin: 0;
+    font-weight: bold;
+}
+
+.description-p {
+    font-size: 0.987rem;
+    padding-top: 0.2rem;
+}
+
+
+/*
+END CSS GENERAL
+*/
+
+@media (max-width: 767px) {
+    .category,
+    .promo,
+    .img-box,
+    .recomendar {
+        padding: 0 1rem;
+    }
+    .slider {
+        padding: 0rem 0rem 0rem 1rem;
+        margin-bottom: 2rem;
+    }
+    h1 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    .room {
+        margin-bottom: 1rem;
+    }
+    .room h1 {
+        margin-bottom: 1.5rem;
+    }
+    .description-box {
+        padding-left: 0.5rem;
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+    .description-box p {
+        margin: 0.5rem 0 0 0.2rem;
+    }
+    .title-room {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .desc-room {
+        margin-top: 0.2rem !important;
+    }
+    .promo {
+        margin: 1rem;
+        padding: 0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .promo-label,
+    .bbbb {
+        position: relative;
+        text-align: center;
+        padding: 0 1rem;
+        color: var( --color_White);
+        background-color: var( --color_black);
+    }
+    .promo-label h1,
+    .bbbb h1 {
+        padding-top: 1rem;
+    }
+    .promo .btn {
+        margin-bottom: 1rem;
+    }
+    .service-item {
+        padding: 0.5rem;
+        margin: 0.8rem;
+    }
+    .service-item-icon {
+        width: 5rem;
+        padding-right: 1rem;
+    }
+    /******************************/
+    .banner {
+        position: relative;
+        overflow: hidden;
+        margin: 2rem 1rem;
+        border-radius: 10px;
+    }
+    .banner-img-box {
+        left: 50%;
+        top: 0;
+        margin-left: -300px;
+    }
+    .banner-img {
+        max-height: 420px;
+        display: block;
+        margin: 0 auto;
+        z-index: 3333;
+    }
+    .banner-text {
+        position: absolute;
+        width: 50%;
+        top: 25%;
+        left: 35%;
+        font-weight: bold;
+        text-align: left;
+        transform: translate(-50%, -50%);
+        color: rgba(24, 34, 34)
+    }
+    .banner-text h3 {
+        margin-bottom: 2rem;
+    }
+    .banner-btn {
+        background-color: var( --color_black) !important;
+        color: var( --color_White) !important;
+        border-radius: 5px;
+    }
+    /*****************************************/
+}
+
+
+/**tablet small*/
+
+@media (min-width: 768px) {
+    .home {
+        padding: 0 2rem;
+    }
+    h1 {
+        margin-bottom: 2rem;
+    }
+    .description-box {
+        padding-left: 0.5rem;
+        line-height: 1.2rem;
+        font-size: 0.9rem;
+    }
+    .description-box p {
+        margin: 0;
+    }
+    .promo {
+        margin-bottom: 2rem;
+    }
+    .promo-label,
+    .banner-text {
+        position: absolute;
+        text-align: left;
+        padding: 2.4rem 1rem;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+    }
+    .promo-label {
+        width: 20rem;
+        top: 50%;
+        left: 28%;
+        color: var(--color_White);
+    }
+    .promo-label h1 {
+        font-size: 2.5rem;
+    }
+    input[type=button] {
+        padding: 0.4rem 1rem;
+    }
+    .service-item {
+        position: relative;
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .service-item-icon {
+        width: 5rem;
+        padding-right: 1rem;
+    }
+    /*-------------------------------*/
+    .banner {
+        position: relative;
+        overflow: hidden;
+        margin: 2rem 0;
+        border-radius: 10px;
+    }
+    .banner-img-box {
+        left: 50%;
+        top: 0;
+        margin-left: -250px;
+    }
+    .banner-img {
+        width: 100%;
+        max-height: 30rem;
+        display: block;
+        margin: 0 auto;
+        z-index: 3333;
+    }
+    .banner-text {
+        width: 23rem;
+        font-size: 2rem;
+        top: 35%;
+        left: 28%;
+        color: var(--color_black);
+    }
+    .banner-btn {
+        background-color: var( --color_black) !important;
+        color: var( --color_White) !important;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .home {
+        padding: 0 4rem;
+    }
+    .home,
+    .room,
+    .promo,
+    .img-box {
+        margin-bottom: 2rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .room h1 {
+        margin-bottom: 2.4rem;
+    }
+    .category-label {
+        padding-top: 0.6rem;
+        line-height: 0.8rem;
+    }
+    .promo-label,
+    .banner-text {
+        position: absolute;
+        text-align: left;
+        padding: 3rem 1rem;
+        transform: translate(-50%, -50%);
+    }
+    .promo-label {
+        width: 30rem;
+        top: 50%;
+        left: 28%;
+        color: var( --color_White);
+    }
+    .promo-label h1,
+    .banner-text h3 {
+        font-size: 3rem;
+    }
+    .promo-label p {
+        font-size: 1.5rem;
+    }
+    input[type=button] {
+        font-size: 1.2rem;
+        padding: 0.6rem 1rem;
+    }
+    .category-desc {
+        line-height: 1rem;
+    }
+    /*----------------------------------------------*/
+    .banner {
+        position: relative;
+        overflow: hidden;
+        margin: 2rem 0;
+        border-radius: 10px;
+    }
+    .banner-img-box {
+        left: 50%;
+        top: 0;
+        margin-left: -250px;
+    }
+    .banner-img {
+        width: 100%;
+        max-height: 30rem;
+        display: block;
+        margin: 0 auto;
+        z-index: 3333;
+    }
+    .banner-text {
+        width: 25rem;
+        top: 35%;
+        left: 24%;
+        color: var(--color_black) !important;
+    }
+    .banner-btn {
+        background-color: var( --color_black) !important;
+        color: var( --color_White) !important;
+        border-radius: 5px;
+    }
+}
+
+
+/*screem longer*/
+
+@media (min-width: 1201px) {
+    .home {
+        padding: 0 8rem;
+    }
+    .category,
+    .promo,
+    .img-box {
+        margin-bottom: 3rem;
+    }
+    .description-box {
+        padding-top: 1rem;
+        line-height: 1.2rem;
+    }
+    .promo-img {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .star small {
+        font-weight: bold;
+        padding-left: 0.2rem;
+        color: var( --color_black);
+    }
+    .title-room {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .category-label {
+        padding-top: 1.2rem;
+        line-height: 0.6rem;
+    }
+    .category-title {
+        font-size: 1.2rem;
+    }
+    .category-desc {
+        line-height: 1rem;
+    }
+    .promo-label,
+    .banner-text {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        text-align: left;
+        transform: translate(-50%, -50%);
+    }
+    .promo-label {
+        width: 20rem;
+        color: var( --color_White);
+    }
+    .promo-label h1,
+    .banner-text h3 {
+        font-size: 3rem;
+    }
+    .promo-label p {
+        font-size: 1.2rem;
+    }
+    input[type=button] {
+        padding: 0.8rem 1.2rem;
+    }
+    /********************/
+    .bbbb {
+        position: absolute;
+        width: 20rem;
+        top: 35%;
+        left: 30%;
+        text-align: left;
+        transform: translate(-50%, -50%);
+        color: rgba(24, 34, 34)
+    }
+    .color {
+        color: white !important;
+        background-color: rgba(24, 34, 34) !important
+    }
+    /*----------------------------------------------*/
+    .banner {
+        position: relative;
+        overflow: hidden;
+        margin: 2rem 0;
+        border-radius: 10px;
+    }
+    .banner-img-box {
+        left: 50%;
+        top: 0;
+        margin-left: -250px;
+    }
+    .banner-img {
+        width: 100%;
+        max-height: 30rem;
+        display: block;
+        margin: 0 auto;
+        z-index: 3333;
+    }
+    .banner-text {
+        width: 25rem;
+        color: var(--color_black) !important;
+    }
+    /*
+    .banner-text {
+        position: absolute;
+        width: 50%;
+        top: 25%;
+        left: 35%;
+        font-weight: bold;
+        text-align: left;
+        transform: translate(-50%, -50%);
+        color: rgba(24, 34, 34)
+    }
+    .banner-text h3 {
+        margin-bottom: 2rem;
+    }*/
+    .banner-btn {
+        background-color: var( --color_black) !important;
+        color: var( --color_White) !important;
+        border-radius: 5px;
+    }
+}

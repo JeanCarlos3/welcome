@@ -1,0 +1,238 @@
+<!-- Modal -->
+<div>
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="modalSearchTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Busqueda avanzada</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-select">
+                        <select>
+                             <option value="0">Ubicacion</option>
+                             <option value="1">San Jose Centro</option>
+                             <option value="2">San Jose</option>
+                             <option value="3">Alajuela</option>
+                             <option value="4">Heredia</option>
+                             <option value="5">Nosara</option>
+                             <option value="6">Puntarenas</option>
+                     </select>
+                    </div>
+                    <input type="datetime-local" class="inputDate">
+                    <input type="datetime-local" class="inputDate">
+                    <div class="filtro_camaHabitacion">
+                        <p class="filtro-camaHabitacion-title"> Habitaciones y Camas</p>
+                        <div class="d-flex justify-content-between ddd">
+                            <p>Camas</p>
+                            <div>
+                                <a (click)="delectCama()">
+                                    <fa-icon [icon]="faMinusSquare" class="aaa"></fa-icon>
+                                </a>
+                                <p class="aaa">{{ numeroCamas }}</p>
+                                <a (click)="addCama()">
+                                    <fa-icon [icon]="faPlusSquare" class="aaa"></fa-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between ddd">
+                            <p>Habitación</p>
+                            <div>
+                                <a (click)="delectHabitacion()">
+                                    <fa-icon [icon]="faMinusSquare" class="aaa"></fa-icon>
+                                </a>
+                                <p class="aaa">{{ numeroHabitaciones }}</p>
+                                <a (click)="addHabitacion()">
+                                    <fa-icon [icon]="faPlusSquare" class="aaa"></fa-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filtro_huesped">
+                        <p class="filtro-huesped-title">Quiene te acompañara</p>
+                        <div class="d-flex justify-content-between ddd">
+                            <div class="lineal">
+                                <p>Adultos</p>
+                                <small>13 años o más</small>
+                            </div>
+                            <div>
+                                <a (click)="delectAdulto()">
+                                    <fa-icon [icon]="faMinusSquare" class="aaa"></fa-icon>
+                                </a>
+                                <p class="aaa">{{ adultos }}</p>
+                                <a (click)="addAdulto()">
+                                    <fa-icon [icon]="faPlusSquare" class="aaa"></fa-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between ddd">
+                            <div class="lineal">
+                                <p>Niños</p>
+                                <small>De 2 a 12 años</small>
+                            </div>
+                            <div>
+                                <a (click)="delectNino()">
+                                    <fa-icon [icon]="faMinusSquare" class="aaa"></fa-icon>
+                                </a>
+                                <p class="aaa">{{ ninos }}</p>
+                                <a (click)="addNino()">
+                                    <fa-icon [icon]="faPlusSquare" class="aaa"></fa-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between ddd">
+                            <div class="lineal">
+                                <p>Bebes</p>
+                                <small>Menos de 2 años</small>
+                            </div>
+                            <div>
+                                <a (click)="delectBebe()">
+                                    <fa-icon [icon]="faMinusSquare" class="aaa"></fa-icon>
+                                </a>
+                                <p class="aaa">{{ bebes }}</p>
+                                <a (click)="addBebe()">
+                                    <fa-icon [icon]="faPlusSquare" class="aaa"></fa-icon>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="boton" routerLink="/list" routerLinkActive="active" data-dismiss="modal">Filtrar</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<div class="search">
+    <div class="mobile">
+        <div class="mobile-search-box">
+            <input type="text" class="input_search" data-toggle="modal" data-target="#modalSearch" placeholder="¿Qué estas buscando?">
+        </div>
+        <div class="mobile-text-box">
+            <h1>HOPE</h1>
+            <p>Habitaciones confortables, pensadas solo para tí</p>
+        </div>
+    </div>
+    <div class="desktop">
+        <h1>Encuentra habitaciones comodas y seguras a un buen precio</h1>
+        <div class="center">
+            <div class="search-box">
+                <div class="filter-item">
+                    <select>
+                    <option value="0">Ubicacion</option>
+                    <option value="1">San Jose Centro</option>
+                    <option value="2">San Jose</option>
+                    <option value="3">Alajuela</option>
+                    <option value="4">Heredia</option>
+                    <option value="5">Nosara</option>
+                    <option value="6">Puntarenas</option>
+                  </select>
+                </div>
+                <div class="filter-item">
+                    <input type="datetime-local" class="inputDate">
+                </div>
+                <div class="filter-item">
+                    <input type="datetime-local" class="inputDate">
+                </div>
+                <div class="filter-item">
+                    <select>
+                    <option value="0">Húestedes</option>
+                    <option value="1">1 huesped 1 habitacion</option>
+                    <option value="2">2 huesped 1 habitacion</option>
+                    <option value="3">3 huesped 1 habitacion</option>
+                    <option value="1">2 huesped 2 habitacion</option>
+                    <option value="2">3 huesped 2 habitacion</option>
+                    <option value="3">3 huesped 1 habitacion</option>
+                  </select>
+                </div>
+                <input type="button" class="btn-search ml-2" value="Buscar" routerLink="/rooms/list" routerLinkActive="active">
+            </div>
+        </div>
+        <div class="popular">
+            <div class="popular-box">
+                <div>
+                    <a href="">
+                        <small>Reservar en la noche</small>
+                    </a>
+                </div>
+            </div>
+            <div class="popular-box">
+                <div>
+                    <a href="">
+                        <small>Todos los servicios</small>
+                    </a>
+                </div>
+            </div>
+            <div class="popular-box">
+                <div>
+                    <a href="">
+                        <small>Hotels in Museo Mural Diego Rivera</small>
+                    </a>
+                </div>
+            </div>
+            <div class="popular-box">
+                <div>
+                    <a href="">
+                        <small>Hotels in Museo Mural Diego Rivera</small>
+                    </a>
+                </div>
+            </div>
+            <div class="popular-box">
+                <div>
+                    <a href="">
+                        <small>Hotels in Museo Mural Diego Rivera</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-search" id="nav-search">
+    <!-- Desktop -->
+    <div class="nav-search-desktop">
+        <div class="nav-search-item">
+            <select>
+                 <option value="0">Ubicacion</option>
+                 <option value="1">San Jose Centro</option>
+                 <option value="2">San Jose</option>
+                 <option value="3">Alajuela</option>
+                 <option value="4">Heredia</option>
+                 <option value="5">Nosara</option>
+                 <option value="6">Puntarenas</option>
+         </select>
+        </div>
+        <div class="nav-search-item">
+            <input type="datetime-local" class="inputDate">
+        </div>
+        <div class="nav-search-item">
+            <input type="datetime-local" class="inputDate">
+        </div>
+        <div class="nav-search-item">
+            <select>
+        <option value="0">Húestedes</option>
+        <option value="1">1 huesped 1 habitacion</option>
+        <option value="2">2 huesped 1 habitacion</option>
+        <option value="3">3 huesped 1 habitacion</option>
+        <option value="1">2 huesped 2 habitacion</option>
+        <option value="2">3 huesped 2 habitacion</option>
+        <option value="3">3 huesped 1 habitacion</option>
+      </select>
+        </div>
+        <input type="button" class="btn-search ml-2" value="Buscar" routerLink="/list" routerLinkActive="active">
+    </div>
+    <!-- END Desktop -->
+
+    <!-- Mobile-->
+    <div class="nav-search-mobile">
+        <div class="mobile-search-box">
+            <input type="text" class="input_search" data-toggle="modal" data-target="#modalSearch" placeholder="¿Qué estas buscando?">
+        </div>
+    </div>
+    <!-- END Mobile -->
+
+</div>

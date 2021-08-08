@@ -1,0 +1,31 @@
+.about {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.fundadores-box {
+    margin-top: 3rem;
+}
+
+.img-text {
+    margin-top: 0.6rem;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.banner {
+    background-color: chartreuse;
+}
+
+@media (min-width: 768px) {
+    .about {
+        margin: 1rem 5rem;
+        padding: 2rem;
+        text-align: justify;
+    }
+    .fundadores-item {
+        line-height: 0.9rem;
+    }
+}

@@ -1,0 +1,57 @@
+<!--START offcanvas Fitrar-->
+<div class="offcanvas offcanvas-start" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
+    <div class="offcanvas-header">
+        <h5 class="canvas-title">Ménu</h5>
+        <button type="button" class=" vv btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    </div>
+    <div class="">
+        <ul class="list-item">
+            <li><a routerLink="/rooms/home">HOME</a></li>
+            <li><a routerLink="/info/about">Nosotros</a></li>
+            <li routerLink="/rooms/reserva"><a>Reservación</a></li>
+            <li><a>Asociado</a></li>
+            <li><a>Politica de hospedaje</a></li>
+            <li><a>Terminos y condiciones</a></li>
+            <li><a>Centro de  ayuda</a></li>
+            <li><a>Idioma</a></li>
+            <li><a>FAQ</a></li>
+        </ul>
+    </div>
+</div>
+<!--END offcanvas Fitrar-->
+
+<nav class="mobile" id="mobile">
+    <ul class="mobile-icon-list">
+        <li routerLink="/rooms/home">
+            <a class="">
+                <fa-icon [icon]="faHome"></fa-icon><br>
+                <small>Home</small>
+            </a>
+        </li>
+        <li>
+            <a href="#home" class="">
+                <fa-icon [icon]="faSearch"></fa-icon><br>
+                <small>Buscar</small>
+            </a>
+        </li>
+        <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasFilter" aria-controls="offcanvasFilter">
+            <a class="">
+                <fa-icon [icon]="faPlusSquare"></fa-icon><br>
+                <small>Más</small>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/rooms/favorite" class="">
+                <fa-icon [icon]="faBookmark"></fa-icon><br>
+                <small>Favoritos</small>
+            </a>
+        </li>
+        <li>
+            <a routerLink="/auth/login" class="">
+                <fa-icon [icon]="faUserCircle"></fa-icon><br>
+                <small>Cuenta</small>
+            </a>
+        </li>
+    </ul>
+</nav>

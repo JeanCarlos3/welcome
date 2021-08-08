@@ -1,0 +1,270 @@
+.room>div {
+    margin: 2rem 0;
+}
+
+h2,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h2,
+h5 {
+    margin: 2rem 0;
+}
+
+h6 {
+    font-size: 1.175rem;
+}
+
+.col-image {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.datos {
+    padding: 1rem;
+}
+
+.vv {
+    text-align: justify;
+    line-height: 1.45rem;
+}
+
+.datos-body {
+    padding-left: 2rem;
+    margin-top: 3rem;
+}
+
+.datos-body-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.vv>p {
+    color: var(--color_gray);
+}
+
+.politicas {
+    text-align: justify;
+}
+
+.text-politica {
+    color: var(--color_gray);
+}
+
+.btn {
+    color: var(--color_White);
+    background-color: var(--color_crisom);
+}
+
+.columa {
+    position: relative;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.mobile {
+    position: fixed;
+    line-height: 0.8rem;
+    width: 100%;
+    bottom: 0;
+    z-index: 999999;
+    padding-bottom: 0.2rem;
+    background-color: var(--color_black);
+    opacity: 90%;
+    color: var(--color_White);
+}
+
+.cc {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0.8rem;
+    margin: 0 2rem;
+}
+
+.boton {
+    display: inline-block;
+    font-weight: 400;
+    color: var(--color_White);
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid var(--color_White);
+    margin: 0;
+    margin-left: 3rem;
+    padding: .2rem .75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.view-mobile {
+    margin-bottom: 2rem;
+}
+
+.view-mobile-fech {
+    color: var(--color_White);
+    border-radius: 5px;
+    padding: 0 .4rem;
+    background-color: var(--color_gray);
+}
+
+.view-mobile p {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+}
+
+.view-mobile-title {
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.8rem;
+}
+
+.reserva-box {
+    position: -webkit-sticky;
+    position: sticky;
+    height: auto;
+    top: 0;
+    border-radius: 5px;
+    border: 1px solid var( --color_Border);
+    box-shadow: 0 0.125rem 0.25rem var( --color_Border) !important;
+}
+
+.icon-service {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.service-item {
+    padding-left: 0.5rem;
+    line-height: 0.4rem;
+}
+
+.title {
+    padding-top: 0.5rem;
+}
+
+.subtitle {
+    color: var( --color_gray);
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+.border {
+    margin-bottom: 2rem;
+    box-shadow: 0 0.125rem 0.25rem var( --color_Border) !important;
+}
+
+.item-rules {
+    padding-left: 1rem;
+}
+
+.text-rules {
+    margin-left: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+    .room {
+        padding: 0 1rem;
+    }
+    .columa {
+        /*col-md-12*/
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .reserva-box {
+        width: 270px;
+        margin-left: 1rem;
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .desktop {
+        display: none;
+    }
+    .room {
+        padding: 0 2rem;
+    }
+    .columa {
+        /*col-md-12*/
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .reserva-box {
+        width: 270px;
+        margin-left: 1rem;
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .mobile,
+    .view-mobile {
+        display: none;
+    }
+    .room {
+        padding: 0 6rem;
+    }
+    .reserva-box {
+        width: 300px;
+        margin-left: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .mobile,
+    .view-mobile {
+        display: none;
+    }
+    .room {
+        padding: 0 8rem;
+    }
+    .reserva-box {
+        width: 300px;
+        margin-left: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 1281px) {
+    .mobile,
+    .view-mobile {
+        display: none;
+    }
+    .room {
+        padding: 0 8rem;
+    }
+    .reserva-box {
+        width: 350px;
+        margin-left: 2rem;
+        padding: 2rem;
+    }
+}

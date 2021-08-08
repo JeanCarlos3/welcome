@@ -1,0 +1,143 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+/*btn*/
+
+.bb {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    background: #fff;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #E4E4E5;
+    z-index: 999;
+}
+
+label.logo {
+    color: var( --bg_boton);
+    line-height: 80px;
+    font-size: 35px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    text-align: left;
+    padding: 1.5rem 2.2rem;
+}
+
+nav ul li {
+    line-height: 1rem;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var( --color_link);
+    border-radius: 3px;
+}
+
+a.active,
+a:hover {
+    background: var( --color_White);
+    transition: 0.5s;
+}
+
+.checkbtn {
+    font-size: 26px;
+    color: var( --color_Icon);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/*******************************************/
+
+.has-search .form-control {
+    padding-left: 3.3rem;
+    margin: 0 auto;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.input-seach {
+    height: 3rem;
+}
+
+
+/*******************************************/
+
+@media (max-width:1024px) {
+    nav {
+        padding: 0;
+    }
+}
+
+@media (max-width:952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav {
+        padding: 0;
+    }
+    nav ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background: var(--color_White);
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+    }
+    nav {
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        line-height: 2rem;
+        margin: 1rem 0;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a.active,
+    a:hover {
+        background: none;
+        color: var(--color_link);
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
