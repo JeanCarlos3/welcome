@@ -47,6 +47,27 @@ export class HomeScrollService {
           mobile!.style.visibility = "visible";
         }
       }
+    }   
+  }
+
+  reserva(): void {
+    window.onscroll= function (){
+      scrollReservaBox()
+     
+    };
+    function scrollReservaBox(): void {
+
+      let reservaBox = document.getElementById("reserva-box");
+      console.log("log", document.documentElement.scrollTop);
+
+      if (reservaBox) {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+          reservaBox!.style.position = "fixed";
+          reservaBox!.style.top = "40%";
+        } else {
+          reservaBox!.style.position = "relative";
+        }
+      }
     }
   }
 }

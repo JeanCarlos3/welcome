@@ -15,7 +15,6 @@ export class CarouselComponent implements OnInit {
   faBed = faBed;
   faBath = faBath;
   faTv = faTv;
-  
   customOptions: OwlOptions = {
     loop: true,
     margin: 10,
@@ -32,7 +31,7 @@ export class CarouselComponent implements OnInit {
             items: 3
         },
         1000: {
-            items: 4
+            items: 5
         }
     }
   }

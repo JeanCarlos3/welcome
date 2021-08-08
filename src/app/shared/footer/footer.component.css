@@ -24,6 +24,7 @@ li {
 }
 
 a {
+    cursor: pointer;
     color: var(--color_link);
     text-decoration: none;
 }

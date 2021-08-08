@@ -31,7 +31,8 @@ h6 {
     line-height: 1.45rem;
 }
 
-.datos-body {
+.datos-body,
+.datos-img {
     padding-left: 2rem;
     margin-top: 3rem;
 }
@@ -134,10 +135,7 @@ h6 {
 }
 
 .reserva-box {
-    position: -webkit-sticky;
-    position: sticky;
-    height: auto;
-    top: 0;
+    margin-right: 2rem;
     border-radius: 5px;
     border: 1px solid var( --color_Border);
     box-shadow: 0 0.125rem 0.25rem var( --color_Border) !important;
