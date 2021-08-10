@@ -8,6 +8,10 @@ GENERAL
     background-color: var(--bg_Footer);
 }
 
+.ss {
+    margin-bottom: 2rem;
+}
+
 ul {
     display: flex;
     justify-content: flex-end;
@@ -35,6 +39,10 @@ a:hover {
 
 .fech {
     margin-top: 1rem;
+}
+
+.dds {
+    line-height: 1.2rem;
 }
 
 .tittle {

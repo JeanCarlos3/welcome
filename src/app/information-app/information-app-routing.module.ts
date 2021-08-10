@@ -1,9 +1,8 @@
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 /*components*/
 import { HelpInfoComponent } from './page/help-info/help-info.component';
-import { NavbarComponent } from '../shared/navbar/navbar.component';
 import { AboutInfoComponent } from './page/about-info/about-info.component';
 import { SocioInfoComponent } from './page/socio-info/socio-info.component';
 
@@ -13,7 +12,7 @@ const routes: Routes = [
       { path: 'help', component: HelpInfoComponent },
       { path: 'socios', component: SocioInfoComponent },
       { path: 'about', component: AboutInfoComponent },
-      { path: '**', redirectTo: 'socios' }
+      { path: '**', redirectTo: 'about' }
     ]
   }
 ];

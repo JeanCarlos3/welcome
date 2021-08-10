@@ -1,0 +1,25 @@
+TO DO:
+buscador
+--footer
+pagina de  pagar
+templace
+lista de rooms
+- servicio arreglar
+header principal
+--filtro componente
+
+Angular 9 CRUD Tutorial Steps
+Step 1 — Mocking the Backend Using json-server
+Step 2 — Creating an Angular 9 Module
+Step 3 — Importing Angular HttpClientModule and FormsModule
+Step 4 — Creating Angular 9 Component(s)
+Step 5 — Adding Angular 9 Routing
+Step 6 — Creating an Angular 9 Service
+Step 7 — Creating a Model
+Step 8 — Implementing the CRUD Methods
+Step 9 — Calling the CRUD Methods
+
+
+Nuestra prioridad principal es tu seguridad
+
+Recomendaciones de viaje relacionadas con el COVID-19

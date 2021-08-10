@@ -1,44 +1,52 @@
 <div class="footer">
-    <div class="row">
+    <div class="row ss">
         <div class="col-sm-12 col-md-6 col-lg-3 item">
             <p class="tittle">Acerca de</p>
-            <p><a routerNavigate="/info/about">Cómo funciona xxxx</a></p>
-            <p> <a routerLink="/info/socios">Hazte socio</a>
-                <a routerLink="/info/about">historia de xxxx</a></p>
-            <p>
-                <a routerLink="/info/about">Compromiso social</a></p>
+            <p><a routerLink="/info/about">Cómo funciona xxxx</a></p>
+            <p> <a routerLink="/info/socios">Hazte socio</a></p>
+            <p> <a routerLink="/info/about">historia de xxxx</a></p>
+            <p><a routerLink="/info/about">Compromiso social</a></p>
+            <p><a routerLink="/info/about">Cómo funciona xxxx</a></p>
+            <p> <a routerLink="/info/socios">Hazte socio</a></p>
+            <p> <a routerLink="/info/about">historia de xxxx</a></p>
+            <p><a routerLink="/info/about">Compromiso social</a></p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 item">
             <p class="tittle">Sociedad</p>
             <p><a routerLink="/info/socio" routerLinkActive="active">Hazte socio</a></p>
             <p><a routerLink="/info/socio" routerLinkActive="active">Centro de recursos</a></p>
             <p><a routerLink="/info/socio" routerLinkActive="active">Confianza y seguridad</a></p>
+            <p><a routerLink="/info/socio" routerLinkActive="active">Hazte socio</a></p>
+            <p><a routerLink="/info/socio" routerLinkActive="active">Centro de recursos</a></p>
+            <p><a routerLink="/info/socio" routerLinkActive="active">Confianza y seguridad</a></p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 item">
             <p class="tittle">Politicas</p>
-            <p>
-                <a routerLink="/info/socios" routerLinkActive="active">Politicas de privacidad</a></p>
-            <p>
-                <a routerLink="/info/socios" routerLinkActive="active">Politicas de hospedaje</a></p>
-            <p>
-                <a routerLink="/info/socios" routerLinkActive="active">Terminos y condiciones</a></p>
+            <p><a routerLink="./info/socios" routerLinkActive="active">Politicas de privacidad</a></p>
+            <p><a routerLink="/info/socios" routerLinkActive="active">Politicas de hospedaje</a></p>
+            <p><a routerLink="/info/socios" routerLinkActive="active">Terminos y condiciones</a></p>
+            <p><a routerLink="./info/socios" routerLinkActive="active">Politicas de privacidad</a></p>
+            <p><a routerLink="/info/socios" routerLinkActive="active">Politicas de hospedaje</a></p>
+            <p><a routerLink="/info/socios" routerLinkActive="active">Terminos y condiciones</a></p>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3 item">
             <p class="tittle">Centro de información</p>
             <p>
                 <a routerLink="/info/help" routerLinkActive="active">Centro de Ayuda</a></p>
             <p>
-                <a routerLink="/info/help" routerLinkActive="active">Opciones de cancelación</a></p>
+                <a (click)="goToLink('/src/app/information-app/template/politica.html')" target="_blank">Opciones de cancelación</a></p>
             <p>
                 <a routerLink="/info/help" routerLinkActive="active">Tú lo hacen posible</a></p>
         </div>
     </div>
     <hr>
     <div class="row">
-        <div class="col">
-            <p class="fech">2010-2021 © Derechos reservados</p>
+        <div class="col-sm-6 col-md-6 mb-2 ">
+            <h5>Descubre más</h5>
+            <small class="dds">¿Aún no encontraste el establecimiento que quieres? Busca otros destinos o personaliza la búsqueda aún más. </small>
+            <a class="text-danger">Explorar</a>
         </div>
-        <div class="col social-icon">
+        <div class="col-sm-6 col-md-6 social-icon float-end">
             <ul class="icon-list">
                 <li>
                     <a href="https://es-la.facebook.com/" target="_blank">

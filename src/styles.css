@@ -28,23 +28,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    overflow: scroll;
+    overflow: visible;
 }
 
 .pie {
-    background-color: #E9E9EC;
-    text-align: center;
-}
-
-.pie p {
-    margin-bottom: 0;
-}
-
-.pie-text {
-    font-weight: 200 !important;
+    border-top: 1px solid #D7D7DA;
 }
 
 @media (max-width: 767px) {
+    html,
+    body {
+        overflow: scroll;
+    }
     .mmm {
         display: none;
     }

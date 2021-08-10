@@ -71,14 +71,21 @@ h6 {
 
 .mobile {
     position: fixed;
-    line-height: 0.8rem;
-    width: 100%;
+    width: 90%;
     bottom: 0;
-    z-index: 999999;
-    padding-bottom: 0.2rem;
-    background-color: var(--color_black);
+    margin: 1rem;
     opacity: 90%;
     color: var(--color_White);
+    background-color: var(--color_black);
+    z-index: 999999;
+}
+
+.mobile p {
+    margin: 0;
+}
+
+.dd {
+    padding: 0.5rem;
 }
 
 .cc {
@@ -91,21 +98,21 @@ h6 {
 
 .boton {
     display: inline-block;
-    font-weight: 400;
+    /* font-weight: 400;*/
     color: var(--color_White);
     text-align: center;
-    vertical-align: middle;
+    /* vertical-align: middle;*/
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: transparent;
-    border: 1px solid var(--color_White);
-    margin: 0;
+    background-color: crimson;
+    border: 1px solid crimson;
+    /* margin: 0;*/
     margin-left: 3rem;
-    padding: .2rem .75rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
+    padding: .4rem .8rem;
+    font-size: 1rem;
+    /*   line-height: 1.5;*/
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }

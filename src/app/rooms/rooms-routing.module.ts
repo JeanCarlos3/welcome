@@ -8,7 +8,8 @@ import { FavoritesComponent } from './page/favorites/favorites.component';
 import { ReservationsComponent } from './page/reservations/reservations.component';
 
 const routes: Routes = [
-  {
+  { 
+  
     path:'', 
     children: [
       { path:'home', component: HomeComponent },

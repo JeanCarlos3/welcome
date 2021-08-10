@@ -1,58 +1,37 @@
 <header>
-    <nav>
-        <!--  mobile-Banner -->
-        <div class="mobile-Banner">
-            <div class="col logo_Small">
-                <img src="../../../assets/imagen/logo/small_Logo.png" class="img-fluid" alt="img">
-            </div>
-            <div class="config">
-                <div class="item bb">
-                    <fa-icon class="item-bars" [icon]="faBars"></fa-icon>
-                    <a (click)="onClickMe()">
-                        <fa-icon [icon]=" faUserCircle "></fa-icon>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!--  desktop-Banner -->
-        <div class="desktop">
-            <div class="desktop-box">
-                <div class="col-6 ">
-                    <img class="logo" src="../../../assets/imagen/logo/logo.png" alt="">
-                </div>
-                <div class="col-6 header-desktop">
-                    <ul class="header-desktop-list">
-                        <li class="header-desktop-item">
-                            <div class="item">
-                                <a class="btn-desktop-socio" href="">Hazte socio</a>
-                            </div>
-                        </li>
-                        <li class="header-desktop-item">
-                            <div class="item">
-                                <a href="">
-                                    <fa-icon [icon]="faGlobe"></fa-icon>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="header-desktop-item">
-                            <div class="item bb">
-                                <fa-icon class="item-bars" [icon]="faBars"></fa-icon>
-                                <a (click)="onClickMe()">
-                                    <fa-icon [icon]=" faUserCircle "></fa-icon>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--  mostrar opciones -->
-        <div [hidden]="mostrar" class="card">
-            <div class="config">
-                <p> <a href=" ">Registrate</a></p>
-                <p> <a routerLink="/auth/login" routerLinkActive="active">Iniciar sección</a></p>
-                <p> <a href=" ">Centro de ayuda</a></p>
-                <p> <a href=" ">Ayuda</a></p>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">WELCOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Alojamiento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bienestar</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link">Iniciar seccion</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </form>
             </div>
         </div>
     </nav>
