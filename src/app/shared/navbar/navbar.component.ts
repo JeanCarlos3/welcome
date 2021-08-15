@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faHome, faSearch, faGlobeAmericas, faBars, faCog } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faSearch, faGlobe, faBars, faCog } from '@fortawesome/free-solid-svg-icons';
 import { faUserCircle, faHeart, faUser, faBookmark } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
@@ -15,7 +15,7 @@ export class NavbarComponent implements OnInit {
   faUser = faUser;
   faBars = faBars;
   faUserCircle  = faUserCircle;
-  faGlobe = faGlobeAmericas;
+  faGlobe = faGlobe;
   faSearch = faSearch;
   faCog =  faCog;
 

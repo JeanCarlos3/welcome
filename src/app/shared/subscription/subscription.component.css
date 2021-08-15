@@ -1,0 +1,38 @@
+section {
+    padding: 4%;
+    background-image: url("/assets/imagen/banner/newlatter.png");
+}
+
+h2,
+h6 {
+    color: black;
+}
+
+.form-subscribe {
+    max-width: 600px;
+    margin: 0 auto
+}
+
+.form-subscribe .form-control {
+    background-color: hsla(0, 0%, 100%, .8);
+    padding-left: 24px;
+    padding-right: 24px;
+    letter-spacing: 1px;
+    border: none;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px
+}
+
+.form-subscribe .form-control.focus,
+.form-subscribe .form-control:focus {
+    z-index: 2;
+    background-color: hsla(0, 0%, 100%, .8)
+}
+
+.form-subscribe .btn {
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    background: #ce0e47;
+    border-color: #ce0e47;
+    height: 46.5px;
+}

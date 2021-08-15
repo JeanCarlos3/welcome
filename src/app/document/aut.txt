@@ -1,12 +1,18 @@
+
 TO DO:
+
 buscador
---footer
 pagina de  pagar
+paginas de btn mas informacion 2
 templace
 lista de rooms
-- servicio arreglar
-header principal
+--footer
+-- componente de suscripción
+-** servicio arreglar
+--header principal
 --filtro componente
+
+
 
 Angular 9 CRUD Tutorial Steps
 Step 1 — Mocking the Backend Using json-server

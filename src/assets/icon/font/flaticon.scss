@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?27d0900d9400ab1fab0328b9a2914050") format("truetype"),
-url("./flaticon.woff?27d0900d9400ab1fab0328b9a2914050") format("woff"),
-url("./flaticon.woff2?27d0900d9400ab1fab0328b9a2914050") format("woff2"),
-url("./flaticon.eot?27d0900d9400ab1fab0328b9a2914050#iefix") format("embedded-opentype"),
-url("./flaticon.svg?27d0900d9400ab1fab0328b9a2914050#flaticon") format("svg");
+    src: url("./flaticon.ttf?f4c56d5ab4cec09f61f6131fc50a79d9") format("truetype"),
+url("./flaticon.woff?f4c56d5ab4cec09f61f6131fc50a79d9") format("woff"),
+url("./flaticon.woff2?f4c56d5ab4cec09f61f6131fc50a79d9") format("woff2"),
+url("./flaticon.eot?f4c56d5ab4cec09f61f6131fc50a79d9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?f4c56d5ab4cec09f61f6131fc50a79d9#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -21,21 +21,45 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 
 $flaticon-map: (
-    "men": "\f101",
-    "men-1": "\f102",
-    "men-2": "\f103",
-    "men-3": "\f104",
+    "menu": "\f101",
+    "menu-1": "\f102",
+    "menu-2": "\f103",
+    "filter-results-button": "\f104",
+    "placeholder": "\f105",
+    "group": "\f106",
+    "bed": "\f107",
+    "calendar": "\f108",
+    "loupe": "\f109",
+    "settings": "\f10a",
 );
 
-.flaticon-men:before {
-    content: map-get($flaticon-map, "men");
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
 }
-.flaticon-men-1:before {
-    content: map-get($flaticon-map, "men-1");
+.flaticon-menu-1:before {
+    content: map-get($flaticon-map, "menu-1");
 }
-.flaticon-men-2:before {
-    content: map-get($flaticon-map, "men-2");
+.flaticon-menu-2:before {
+    content: map-get($flaticon-map, "menu-2");
 }
-.flaticon-men-3:before {
-    content: map-get($flaticon-map, "men-3");
+.flaticon-filter-results-button:before {
+    content: map-get($flaticon-map, "filter-results-button");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-group:before {
+    content: map-get($flaticon-map, "group");
+}
+.flaticon-bed:before {
+    content: map-get($flaticon-map, "bed");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
 }
