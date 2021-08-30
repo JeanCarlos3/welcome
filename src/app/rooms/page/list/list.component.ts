@@ -15,6 +15,8 @@ export class ListComponent implements OnInit {
   faCaretSquareLeft=faCaretSquareLeft;
   faCaretSquareRight = faCaretSquareRight;
 
+  rooms: number[] = [1,2,3,3];
+
   constructor() { }
 
   ngOnInit(): void {

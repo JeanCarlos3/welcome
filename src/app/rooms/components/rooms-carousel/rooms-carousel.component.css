@@ -1,0 +1,31 @@
+section {
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.rooms {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .rooms_list_desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .rooms_list_mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .rooms_list_mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1201px) {
+    .rooms_list_mobile {
+        display: none;
+    }
+}

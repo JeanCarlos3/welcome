@@ -4,471 +4,53 @@
 <app-search></app-search>
 
 
-<div class="rooms">
+<div class="rooms-list">
     <div class="row">
+        <div class="">
 
-        <div class="filter-box filter-desktop">
-            <!-- #region filtro-->
-            <!--
-            <div class="filtro">
-                <div class="filtro-header">
-                    <h3>Filtros</h3>
+            <div class="listado">
+                <div class="header-list mb-4">
+                    <h2>Herradura Costa Rica </h2><small>A 61 km de Escazú</small>
                 </div>
-                <div class="category">
-                    <p>Tipo de alojamiento</p>
-                    <div>
-                        <ul class="list">
-                            <li class="list__item">
-                                <input type="radio" class="radio-btn" name="choice" id="a-opt" />
-                                <label for="a-opt" class="label">pick me!</label>
-                            </li>
-
-                            <li class="list__item">
-                                <input type="radio" class="radio-btn" name="choice" id="b-opt" />
-                                <label for="b-opt" class="label">pick me i'm better!</label>
-                            </li>
-
-                            <li class="list__item">
-                                <input type="radio" class="radio-btn" name="choice" id="c-opt" />
-                                <label for="c-opt" class="label">pick me i'm the best!</label>
-                            </li>
-
-                            <li class="list__item">
-                                <input type="radio" class="radio-btn" name="choice" id="d-opt" />
-                                <label for="d-opt" class="label">pick me i'm fabulous!</label>
-                            </li>
-                        </ul>
+                <div class="rooms">
+                    <h3>Las mejores ofertas en hoteles y otros alojamientos</h3>
+                    <!-- #region app-rooms-carousel -->
+                    <div class="carousel">
+                        <app-rooms-carousel>
+                        </app-rooms-carousel>
                     </div>
+                    <!-- #endregion carousel-->
                 </div>
             </div>
-        -->
-            <!-- #endregion filtro-->
-
-            <div class="list-rooms">
-                <h2>Lista de habitaciónes</h2>
-                <!-- Card -->
-                <div class="card ovf-hidden">
-
-                    <!-- Card image -->
-                    <div class="view overlay">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo11.jpg" alt="Card image cap">
-                        <a>
-                            <div class="mask waves-effect waves-light rgba-white-slight"></div>
-                        </a>
-                    </div>
-
-                    <!-- Card content -->
-                    <div class="card-body">
-
-                        <!-- Social shares button -->
-                        <a class="activator mr-4"><i class="fas fa-share-alt"></i></a>
-                        <!-- Title -->
-                        <h4 class="card-title">Card title</h4>
-                        <hr>
-                        <!-- Text -->
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>
-                        <a class="link-text">
-                            <h5>Read more <i class="fas fa-angle-double-right ml-2"></i></h5>
-                        </a>
-
-                    </div>
-
-                    <!-- Card reveal -->
-                    <div class="card-reveal white">
-
-                        <!-- Content -->
-                        <div class="content text-center">
-
-                            <h4 class="card-title font-weight-bold my-4">Social shares <i class="fas fa-times text-muted"></i></h4>
-                            <hr>
-                            <!-- Social Icons -->
-                            <ul class="list-unstyled list-inline d-flex justify-content-center flex-wrap">
-                                <li class="list-inline-item"><a class="btn-floating btn-dribbble"><i class="fab fa-dribbble"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-slack"><i class="fab fa-slack-hash"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-ins"><i class="fab fa-instagram"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-pin"><i class="fab fa-pinterest"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-tw"><i class="fab fa-twitter"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-gplus"><i class="fab fa-google-plus-g"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn-floating btn-git"><i class="fab fa-github"> </i></a></li>
-                            </ul>
-                            <h5 class="font-weight-bold my-4">Join our community</h5>
-                            <hr>
-                            <!-- Social Icons -->
-                            <ul class="list-unstyled list-inline d-flex justify-content-center flex-wrap mt-4">
-                                <li class="list-inline-item"><a class="btn btn-fb px-4"><i class="fab fa-facebook-f"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn btn-tw px-4"><i class="fab fa-twitter"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn btn-li px-4"><i class="fab fa-linkedin-in"> </i></a></li>
-                                <li class="list-inline-item"><a class="btn btn-ins px-4"><i class="fab fa-instagram"> </i></a></li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    <!-- Card reveal -->
-
-                </div>
-                <!-- Card -->
+            <div class="btn-listado2">
+                <button type="button" class="btn-listado btn btn-outline-dark">Ver más alojamientos</button>
             </div>
-            <div class="rooms-box">
-                <!-- navbar -->
-                <div class="d-flex justify-content-between">
-                    <h4>Hoteles en (ubucacion), (12)</h4>
-                    <div class="form-check form-switch">
-                        <label class="form-check-label" for="flexSwitchCheckChecked">Ver en mapa</label>
-                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked">
-                    </div>
-                    <div>
-                        <label class="m-2">Ordenar por </label>
-                        <select class="" aria-label="select">
-                       <option selected>----</option>
-                       <option value="1">Precio de Menor a Mayor</option>
-                       <option value="2">Precio de Mayor a Menor</option>
-                       <option value="3">Huespedes por habitación</option>
-                  </select>
-                    </div>
+
+            <div class="listado">
+                <div class="header-list mb-4">
+                    <h2>Guápiles Costa Rica </h2><small>
+                        A 50 km de Escazú</small>
                 </div>
-                <!-- end navbar -->
-
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-6">
-                            <div id="listImg" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-
-                                    <div class="carousel-item active">
-                                        <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha1.jpeg" alt="">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha2.jpg" alt="">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha3.jpeg" alt="">
-                                    </div>
-                                    <a class="carousel-control-prev" href="#listImg" role="button" data-bs-slide="prev">
-
-                                        <fa-icon class="direction-icon" [icon]="faCaretSquareLeft"></fa-icon>
-                                    </a>
-                                    <a class="carousel-control-next" href="#listImg" role="button" data-bs-slide="next">
-
-                                        <fa-icon class="direction-icon" [icon]="faCaretSquareRight"></fa-icon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <div class="detalle">
-                                    <div class="detalle-header">
-                                        <p class="title">Ubicacion del hotel</p>
-                                        <p class="description">(acronimo) - Nombre del hotel</p>
-                                    </div>
-                                    <p class="badge bg-danger text-wrap">Amenidades</p>
-
-                                    <div class="detalle-body">
-                                        <ul class="list-detalle-room">
-                                            <li class="badge bg-primary text-wrap">
-                                                <fa-icon [icon]="faWifi"></fa-icon>
-                                                Wi-Fi</li>
-                                            <li class="badge bg-primary text-wrap">Tv con cable</li>
-                                            <li class="badge bg-primary text-wrap">Escritorio</li>
-                                            <li class="badge bg-primary text-wrap">Armario</li>
-                                            <li class="badge bg-primary text-wrap">Baño</li>
-                                            <li class="badge bg-primary text-wrap">Wi-Fi</li>
-                                            <li class="badge bg-primary text-wrap">Tv con cable dd f</li>
-                                            <li class="badge bg-primary text-wrap">Escritorio</li>
-                                            <li class="badge bg-primary text-wrap">Armario</li>
-                                            <li class="badge bg-primary text-wrap">Baño</li>
-                                        </ul>
-                                        <p class="fw-bold">Máx. 4 personas | 38 m² | 1 Cama King o 2 Camas Dobles</p>
-                                    </div>
-                                    <div class="detalle-footer">
-                                        <p class="star">
-                                            <fa-icon class="icon" [icon]="faStar"></fa-icon>2.5 <small>(2 reseñas)</small>
-                                        </p>
-                                        <p class="price">₡76,741<small>/noche</small></p>
-                                    </div>
-
-                                    <!-- <input routerLink="/room" routerLinkActive="active" type="button" class="btn" value="Ver detalles">
-                -->
-                                </div>
-                            </div>
-                        </div>
+                <div class="rooms">
+                    <h3>Las mejores ofertas en hoteles y otros alojamientos</h3>
+                    <!-- #region app-rooms-carousel -->
+                    <div class="carousel">
+                        <app-rooms-carousel>
+                        </app-rooms-carousel>
                     </div>
-                </div>
-
-
-                <!-- Card Start -->
-                <div class="card">
-                    <div id="listImg" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha1.jpeg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha2.jpg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha3.jpeg" alt="">
-                            </div>
-                            <a class="carousel-control-prev" href="#listImg" role="button" data-bs-slide="prev">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareLeft"></fa-icon>
-                            </a>
-                            <a class="carousel-control-next" href="#listImg" role="button" data-bs-slide="next">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareRight"></fa-icon>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-body float-end">
-                        <div class="detalle">
-                            <div class="detalle-header">
-                                <p class="title">Ubicacion del hotel</p>
-                                <p class="description">(acronimo) - Nombre del hotel</p>
-                            </div>
-                            <p class="badge bg-danger text-wrap">Amenidades</p>
-
-                            <div class="detalle-body">
-                                <ul class="list-detalle-room">
-                                    <li class="badge bg-primary text-wrap">
-                                        <fa-icon [icon]="faWifi"></fa-icon>
-                                        Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                    <li class="badge bg-primary text-wrap">Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable dd f</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                </ul>
-                                <p class="fw-bold">Máx. 4 personas | 38 m² | 1 Cama King o 2 Camas Dobles</p>
-                            </div>
-                            <div class="detalle-footer">
-                                <p class="star">
-                                    <fa-icon class="icon" [icon]="faStar"></fa-icon>2.5 <small>(2 reseñas)</small>
-                                </p>
-                                <p class="price">₡76,741<small>/noche</small></p>
-                            </div>
-
-                            <!-- <input routerLink="/room" routerLinkActive="active" type="button" class="btn" value="Ver detalles">
-        -->
-                        </div>
-                    </div>
-
-
-                    <button type="button" class="btn btn-room" routerLink="/rooms/detail" routerLinkActive="active">
-                   Ver habitación
-                </button>
-                </div>
-                <!-- End of card -->
-
-
-
-
-
-
-
-
-
-
-
-
-                <!-- Card Start -->
-                <div class="card">
-                    <div id="listImg" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha1.jpeg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha2.jpg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha3.jpeg" alt="">
-                            </div>
-                            <a class="carousel-control-prev" href="#listImg" role="button" data-bs-slide="prev">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareLeft"></fa-icon>
-                            </a>
-                            <a class="carousel-control-next" href="#listImg" role="button" data-bs-slide="next">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareRight"></fa-icon>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="detalle">
-                            <div class="detalle-header">
-                                <p class="title">Ubicacion del hotel</p>
-                                <p class="description">(acronimo) - Nombre del hotel</p>
-                            </div>
-                            <p class="badge bg-danger text-wrap">Amenidades</p>
-
-                            <div class="detalle-body">
-                                <ul class="list-detalle-room">
-                                    <li class="badge bg-primary text-wrap">
-                                        <fa-icon [icon]="faWifi"></fa-icon>
-                                        Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                    <li class="badge bg-primary text-wrap">Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable dd f</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                </ul>
-                                <p class="fw-bold">Máx. 4 personas | 38 m² | 1 Cama King o 2 Camas Dobles</p>
-                            </div>
-                            <div class="detalle-footer">
-                                <p class="star">
-                                    <fa-icon class="icon" [icon]="faStar"></fa-icon>2.5 <small>(2 reseñas)</small>
-                                </p>
-                                <p class="price">₡76,741<small>/noche</small></p>
-                            </div>
-
-                            <!-- <input routerLink="/room" routerLinkActive="active" type="button" class="btn" value="Ver detalles">
-        -->
-                        </div>
-                    </div>
-                </div>
-                <!-- End of card -->
-                <!-- Card Start -->
-                <div class="card">
-                    <div id="listImg" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha1.jpeg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha2.jpg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha3.jpeg" alt="">
-                            </div>
-                            <a class="carousel-control-prev" href="#listImg" role="button" data-bs-slide="prev">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareLeft"></fa-icon>
-                            </a>
-                            <a class="carousel-control-next" href="#listImg" role="button" data-bs-slide="next">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareRight"></fa-icon>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="detalle">
-                            <div class="detalle-header">
-                                <p class="title">Ubicacion del hotel</p>
-                                <p class="description">(acronimo) - Nombre del hotel</p>
-                            </div>
-                            <p class="badge bg-danger text-wrap">Amenidades</p>
-
-                            <div class="detalle-body">
-                                <ul class="list-detalle-room">
-                                    <li class="badge bg-primary text-wrap">
-                                        <fa-icon [icon]="faWifi"></fa-icon>
-                                        Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                    <li class="badge bg-primary text-wrap">Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable dd f</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                </ul>
-                                <p class="fw-bold">Máx. 4 personas | 38 m² | 1 Cama King o 2 Camas Dobles</p>
-                            </div>
-                            <div class="detalle-footer">
-                                <p class="star">
-                                    <fa-icon class="icon" [icon]="faStar"></fa-icon>2.5 <small>(2 reseñas)</small>
-                                </p>
-                                <p class="price">₡76,741<small>/noche</small></p>
-                            </div>
-
-                            <!-- <input routerLink="/room" routerLinkActive="active" type="button" class="btn" value="Ver detalles">
-        -->
-                        </div>
-                    </div>
-                </div>
-                <!-- End of card -->
-                <!-- Card Start -->
-                <div class="card">
-                    <div id="listImg" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha1.jpeg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha2.jpg" alt="">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block img-fluid" src="../../../assets/imagen/habitaciones/ha3.jpeg" alt="">
-                            </div>
-                            <a class="carousel-control-prev" href="#listImg" role="button" data-bs-slide="prev">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareLeft"></fa-icon>
-                            </a>
-                            <a class="carousel-control-next" href="#listImg" role="button" data-bs-slide="next">
-
-                                <fa-icon class="direction-icon" [icon]="faCaretSquareRight"></fa-icon>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="detalle">
-                            <div class="detalle-header">
-                                <p class="title">Ubicacion del hotel</p>
-                                <p class="description">(acronimo) - Nombre del hotel</p>
-                            </div>
-                            <p class="badge bg-danger text-wrap">Amenidades</p>
-
-                            <div class="detalle-body">
-                                <ul class="list-detalle-room">
-                                    <li class="badge bg-primary text-wrap">
-                                        <fa-icon [icon]="faWifi"></fa-icon>
-                                        Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                    <li class="badge bg-primary text-wrap">Wi-Fi</li>
-                                    <li class="badge bg-primary text-wrap">Tv con cable dd f</li>
-                                    <li class="badge bg-primary text-wrap">Escritorio</li>
-                                    <li class="badge bg-primary text-wrap">Armario</li>
-                                    <li class="badge bg-primary text-wrap">Baño</li>
-                                </ul>
-                                <p class="fw-bold">Máx. 4 personas | 38 m² | 1 Cama King o 2 Camas Dobles</p>
-                            </div>
-                            <div class="detalle-footer">
-                                <p class="star">
-                                    <fa-icon class="icon" [icon]="faStar"></fa-icon>2.5 <small>(2 reseñas)</small>
-                                </p>
-                                <p class="price">₡76,741<small>/noche</small></p>
-                            </div>
-
-                            <!-- <input routerLink="/room" routerLinkActive="active" type="button" class="btn" value="Ver detalles">
-        -->
-                        </div>
-                    </div>
-                </div>
-                <!-- End of card -->
-
-                <div class="banner">
-                    <img src="../../../assets/imagen/banner/banner.png" class="img-fluid" alt="img">
+                    <!-- #endregion carousel-->
                 </div>
             </div>
+            <div class="btn-listado2">
+                <button type="button" class="btn-listado btn btn-outline-dark">Ver más alojamientos</button>
+            </div>
+
+
         </div>
     </div>
+</div>
 
 
+<app-mobile-filter></app-mobile-filter>
 
-    <app-mobile-filter></app-mobile-filter>
-
-    <app-footer></app-footer>
+<app-footer></app-footer>

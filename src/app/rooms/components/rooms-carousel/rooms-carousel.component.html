@@ -1,0 +1,68 @@
+<section class="rooms">
+    <!-- carousel 1.5 size-->
+    <div class="rooms-owl slider rooms_list_mobile">
+        <owl-carousel-o [options]="customOptions2">
+            <ng-template carouselSlide>
+                <div class="">
+                    <div class="room-img">
+                        <img src="../../../assets/imagen/habitaciones/ha2.jpg" class="img-fluid" alt="img">
+                    </div>
+                    <div class="description-box mt-2">
+                        <h5 class="description-text">Hotel buena vida</h5>
+                        <p class="description-p">Habitaciones comodas y limpias</p>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="">
+                    <div class="room-img">
+                        <img src="../../../assets/imagen/habitaciones/ha3.jpeg" class="img-fluid" alt="img">
+                    </div>
+                    <div class="description-box mt-2">
+                        <h5 class="description-text">Hotel buena vida</h5>
+                        <p class="description-p">Habitaciones comodas y limpias</p>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="">
+                    <div class="room-img">
+                        <img src="../../../assets/imagen/habitaciones/room.png" class="img-fluid" alt="img">
+                    </div>
+                    <div class="description-box mt-2">
+                        <h5 class="description-text">Hotel buena vida</h5>
+                        <p class="description-p">Habitaciones comodas y limpias</p>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="">
+                    <div class="room-img">
+                        <img src="../../../assets/imagen/habitaciones/ha2.jpg" class="img-fluid" alt="img">
+                    </div>
+                    <div class="description-box mt-2">
+                        <h5 class="description-text">Hotel buena vida</h5>
+                        <p class="description-p">Habitaciones comodas y limpias</p>
+                    </div>
+                </div>
+            </ng-template>
+
+        </owl-carousel-o>
+    </div>
+
+    <div class="rooms_list_desktop">
+        <div class="row">
+            <div class="col-md-3 col-lg-3" *ngFor="let room of rooms">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -21,6 +21,7 @@ import { MapComponent } from './components/map/map.component';
 
 import { SharedModule} from '../shared/shared.module'
 import { FooterComponent } from '../shared/footer/footer.component';
+import { RoomsCarouselComponent } from './components/rooms-carousel/rooms-carousel.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FooterComponent } from '../shared/footer/footer.component';
     MapComponent,
     FavoritesComponent,
     ReservationsComponent,
-    FooterComponent
+    FooterComponent,
+    RoomsCarouselComponent
   ],
   imports: [
     CommonModule,

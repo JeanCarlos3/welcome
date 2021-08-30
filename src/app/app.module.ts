@@ -8,10 +8,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 /*components*/
 import { AppComponent } from './app.component';
-
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
